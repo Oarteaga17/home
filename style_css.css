@@ -596,15 +596,34 @@ svg{
 
 @media (max-width: 480px) {
     .tramas{
-        width: 38vh;
-        height: 7vh;
+        width: 88vh;
+        height: 9vh;
     }
-}
+    .carousel{
+        width:88vh;
+    }
+
+    .social-red{
+        margin-left: 240px;
+    }
+    .aliados{
+        padding: 10px;
+        display: grid;
+        grid-auto-rows: 10rem;
+        grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    }
+    .derechos{
+     margin-bottom: 30px;
+    }
+    }
+
+
 
 @media (max-width:320px) {
     .tramas{
         width: 24vh;
         height: 4vh;
     }
+   
 }
 }
