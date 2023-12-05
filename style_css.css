@@ -602,18 +602,40 @@ svg{
     .carousel{
         width:88vh;
     }
+.img-notices{
+    margin-left: 15px;
+}
+
+    .document{
+        width: 300px;
+    }
 
     .social-red{
         margin-left: 240px;
     }
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+    .img{
+        width: 60px;
+        height: 60px;
+    }
+
+    h3{
+        font-size: 14px;
+    }
     .aliados{
         padding: 10px;
         display: grid;
-        grid-auto-rows: 10rem;
+        grid-auto-rows: 7rem;
         grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
     }
     .derechos{
-     margin-bottom: 30px;
+        padding: 20px;
+        width: 400px;
+     margin-left: -300px;
     }
     }
 
