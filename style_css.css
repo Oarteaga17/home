@@ -394,19 +394,7 @@ h2{
 }
 /*Esto hace que la pagina se adapte a un ancho de 768px*/
 
-/*
-@media (max-width: 1350px){
-    .tramas{
-        width: 240vh;
-        height:12vh;
-    }
-    nav{
-        width: 240vh;
-    }
-    .carousel{
-        width: 240vh; 
-    }
-}*/
+
 @media (max-width: 1328px){
     .tramas{
         width: 172vh;
@@ -488,6 +476,7 @@ h2{
        
     }
 }
+/*768PX*/
 @media (max-width: 768px) {
     .logo{
         font-size: 13px;
@@ -563,7 +552,7 @@ h2{
         margin-top: 90px;
     }
     .social-red{
-        margin-top: 80px;
+        margin-bottom: 450px;
         margin-right: 400px;
         margin-left: 400px;
     }
@@ -577,6 +566,7 @@ svg{
         display: grid;
         grid-auto-rows: 3rem;
         grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
+        margin-top: 800px;
     
     }
 
@@ -593,7 +583,7 @@ svg{
     margin-left: 100px;
    
 }
-
+/*468PX*/
 @media (max-width: 480px) {
     .tramas{
         width: 88vh;
@@ -634,13 +624,11 @@ svg{
     }
     .derechos{
         padding: 20px;
-        width: 400px;
-     margin-left: -300px;
+        width: 200px;
+        margin-left: -150px;
+        font-size: 10px;
     }
     }
-
-
-
 @media (max-width:320px) {
     .tramas{
         width: 24vh;
